@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap");
+* {
+  font-family: "Roboto", sans-serif;
+}
+#logo {
+  width: 100px;
+  border-radius: 50%;
+}
+
+h1 {
+  font-family: "Rock Salt", cursive;
+  color: white;
+  text-shadow: 0 0 10px rgb(255, 109, 11);
+}
+
+body {
+  background-image: url("../img/graf.gif");
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 10px;
+  transition-property: color;
+  transition-duration: 1s;
+}
+
+a:hover {
+  color: rgb(241, 161, 12);
+  background-color: rgb(8, 8, 8);
+}
+
+.bgblack {
+  background-color: black;
+}
